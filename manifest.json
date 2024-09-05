@@ -1,0 +1,43 @@
+{
+    "name": "SiteResponsivo",
+    "short_name": "Site",
+    "description": "Um site responsivo e moderno.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db",
+    "icons": [
+        {
+            "src": "/icons/icon128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/screen1280.jpg",
+            "sizes": "1280x800",
+            "type": "image/jpg",
+            "label": "Tela Principal Desktop",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/screenshots/screen1024.jpg",
+            "sizes": "1024x768",
+            "type": "image/jpg",
+            "label": "Outra Tela Desktop",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/screenshots/screen360.jpeg",
+            "sizes": "450x900",
+            "type": "image/jpeg",
+            "label": "Tela Principal Mobile"
+        }
+    ]
+}

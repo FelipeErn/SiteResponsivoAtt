@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+    <header>
+        <h1>Felipe Ern</h1>
+        <nav id="navbar">
+            <a href="#sobre" class="nav-link">Sobre mim</a>
+            <a href="#habilidades" class="nav-link">Habilidades</a>
+            <a href="#projetos" class="nav-link">Projetos</a>
+            <a href="#imagens" class="nav-link">Imagens</a>
+            <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+        <button id="menu-btn" class="hamburger">&#9776;</button>
+    </header>
+
+    <div class="Content">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Estudante de desenvolvimento web apaixonado por tecnologia e inovação.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <a target="_blank" href="https://mgbagro.com.br">
+                    <p>Landing page para uma empresa de Agronegócios</p>
+                </a>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Em execução...</p>
+            </div>
+        </section>
+
+        <section id="imagens">
+            <h2>Imagens do Manifesto</h2>
+            <div class="imagem">
+                <h3>Ícone 128x128</h3>
+                <img src="/icons/icon128.png" alt="Ícone 192x192">
+            </div>
+            <div class="imagem">
+                <h3>Ícone 512x512</h3>
+                <img src="/icons/icon512.png" alt="Ícone 512x512">
+            </div>
+            <div class="imagem">
+                <h3>Screenshot desktop 1280x800</h3>
+                <img src="/screenshots/screen1280.jpg" alt="Screenshot 1280x800">
+            </div>
+            <div class="imagem">
+                <h3>Screenshot desktop 1024x768</h3>
+                <img src="/screenshots/screen1024.jpg" alt="Screenshot 1024x768">
+            </div>
+            <div class="imagem">
+                <h3>Screenshot mobile 450x900</h3>
+                <img src="/screenshots/screen360.jpeg" alt="Screenshot 450x900">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Felipe Ern - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
